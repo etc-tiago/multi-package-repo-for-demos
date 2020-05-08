@@ -1,0 +1,21 @@
+{
+  "name": "multi-package-repo-for-demos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tiago Souza",
+  "license": "MIT",
+  "private": true,
+  "bolt": {
+    "workspaces": [
+      "backend/*",
+      "frontend/*",
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.5",
+    "jest": "^26.0.1",
+    "typescript": "^3.8.3"
+  }
+}
