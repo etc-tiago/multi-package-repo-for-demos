@@ -1,0 +1,41 @@
+version: 1
+update_configs:
+  - package_manager: "javascript"
+    directory: "brackend/prisma"
+    update_schedule: "live"
+    default_reviewers:
+      - "etc-tiago"
+    default_labels:
+      - "dependencies"
+
+  - package_manager: "javascript"
+    directory: "packages/is"
+    update_schedule: "live"
+    default_reviewers:
+      - "etc-tiago"
+    default_labels:
+      - "dependencies"
+
+  - package_manager: "javascript"
+    directory: "packages/numbers"
+    update_schedule: "live"
+    default_reviewers:
+      - "etc-tiago"
+    default_labels:
+      - "dependencies"
+
+  - package_manager: "javascript"
+    directory: "packages/objects"
+    update_schedule: "live"
+    default_reviewers:
+      - "etc-tiago"
+    default_labels:
+      - "dependencies"
+
+  - package_manager: "javascript"
+    directory: "packages/strings"
+    update_schedule: "live"
+    default_reviewers:
+      - "etc-tiago"
+    default_labels:
+      - "dependencies"
