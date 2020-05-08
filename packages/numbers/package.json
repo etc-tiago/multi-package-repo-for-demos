@@ -1,0 +1,15 @@
+{
+  "name": "for-demo-package-number",
+  "version": "0.1.0",
+  "scripts": {
+    "package:clean": "rm -rf ./dist",
+    "build:packages": "tsc -p tsconfig.build.json",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}
