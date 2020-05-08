@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  PostgreSQL:
+    container_name: PostgreSQL
+    image: postgres:10.12
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: "etc"
+      POSTGRES_DB: "prisma-demo"
+      PGDATA: /tmp
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
